@@ -3,8 +3,6 @@ const { Client, GatewayIntentBits, SlashCommandBuilder, Routes, REST, Permission
 const token = process.env.TOKEN;
 const clientId = "1477430457917378640";
 
-console.log("TOKEN value:", token);
-console.log("TOKEN type:", typeof token);
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
